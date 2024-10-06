@@ -1,0 +1,29 @@
+package class_3;
+
+import java.util.Scanner;
+
+public class Total_Even_Odd {
+
+	public static void main(String[] args) {
+		int n;
+		int sum=1;
+		Scanner number = new Scanner(System.in);
+		System.out.println("Enter you number ");
+		n=number.nextInt();
+		for(int i=1; i<+100;i++)
+		{
+			if (i%2==0) 
+			{
+				sum=sum+i;
+			}
+			else 
+			{
+				sum=sum+i;
+			}
+		}
+		
+		System.out.println("Total of even number" +sum);
+		System.out.println("Total of Odd number" +sum);
+	}
+
+}

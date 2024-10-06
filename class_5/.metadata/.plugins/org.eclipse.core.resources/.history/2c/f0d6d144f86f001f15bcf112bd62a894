@@ -1,0 +1,18 @@
+package Class_4;
+
+public class M_overLoad_1 {
+
+	public static void main(String[] args) {
+		M_overLoad_2 obj = new M_overLoad_2();
+		obj.add();
+		int result_1=obj.add(2, 3);
+				System.out.println(" First Result = "+result_1);
+		int result_2=obj.add(2, 3,5);
+		        System.out.println(" 2nd Result = "+result_2);
+		        
+		float result_3=obj.add(1.5f, 1.5f, 1.5f, 1.5f);
+		        System.out.println("3rd result = "+result_3);
+				
+	}
+
+}

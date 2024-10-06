@@ -1,0 +1,18 @@
+package Class_4;
+
+public class PoliM_Cal {
+
+	public static void main(String[] args) {
+		
+		PoliM_Cal	 obj = new PoliM_Cal();
+			int value = obj.addValue(a 10,b 20, c 30);
+			System.out.println(value);
+			
+		     int addValue(int a,int b, int c)
+		    {
+		   
+		    	return a+b+c;
+			}
+	}
+
+}

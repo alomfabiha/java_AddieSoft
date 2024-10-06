@@ -1,0 +1,10 @@
+package class_3;
+
+public class Total_Even_Odd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

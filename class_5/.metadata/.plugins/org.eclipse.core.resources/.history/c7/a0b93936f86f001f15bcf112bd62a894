@@ -1,0 +1,10 @@
+package Class_4;
+
+public class M_overLoad_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

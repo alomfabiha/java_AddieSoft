@@ -1,0 +1,18 @@
+package Class_4;
+
+public class Poliorphism {
+
+	public static void main(String[] args) {
+	Poliorphism obj = new Poliorphism();
+	int value = obj.addValue(a 10,b 20);
+	System.out.println(value);
+	
+     int addValue(int a,int b)
+    {
+    	int sum=a+b;
+    	return sum;
+	}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package class_3;
+import java.util.Scanner;
+public class Even_odd {
+
+	public static void main(String[] args) {
+		int x;
+		Scanner number = new Scanner(System.in);
+		Syste4m.out.println("Enter you number ");
+		x=number.nextInt();
+		if(x%2==0)
+		{System.out.println("This is an even number");
+	
+		}
+		else 
+		{
+			System.out.println("This is an Odd number");
+		}
+	}
+
+}

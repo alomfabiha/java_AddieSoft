@@ -1,0 +1,21 @@
+package class_3;
+
+import java.util.Scanner;
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		float a,b,area;
+		Scanner num = new Scanner (System.in);
+		
+System.out.println(" type base ");
+a=num.nextFloat();
+
+System.out.println(" type Height ");
+b=num.nextFloat();
+area=(1/2*a*b);
+
+System.out.println("Trianguler Area "+area);
+	}
+
+}

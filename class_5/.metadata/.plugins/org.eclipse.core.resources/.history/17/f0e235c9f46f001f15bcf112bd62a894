@@ -1,0 +1,11 @@
+package Class_4;
+
+
+
+public class PoliM_sum {
+ void calculate()
+ {
+	 //int sum=a+b+c;
+	 System.out.println(sum);
+ }
+}

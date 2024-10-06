@@ -1,0 +1,23 @@
+package class_3;
+
+import java.util.Scanner;
+
+public class Vowel {
+
+	public static void main(String[] args) {
+		char ch;
+		Scanner obj= new Scanner(System.in);
+		System.out.println("Type your input ");
+		ch=obj.next().charAt(1);
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+		{
+
+System.out.println ("Vowel is "+ch);
+	}
+		else 
+		{
+		
+			System.out.println ("Consonnt is "+ch);
+		}
+}
+}

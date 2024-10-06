@@ -1,0 +1,14 @@
+package Class_4;
+
+public class PoliM_Cal {
+
+	public static void main(String[] args) {
+		
+		PoliM_sum	 obj = new PoliM_sum();
+		//Poliorphism obj = new Poliorphism();
+		
+		int value = obj.addValue(10,20, 30);
+		System.out.println(value);
+	}
+
+}
